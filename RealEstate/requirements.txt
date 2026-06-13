@@ -1,0 +1,29 @@
+# --- Core app ---
+streamlit==1.51.0
+python-dotenv==1.2.1
+pandas==2.3.3
+
+# --- RAG / orchestration ---
+langgraph==1.0.3
+langchain==1.0.7
+langchain-community==0.4.1
+langchain-core==1.0.5
+
+# --- Vector DB ---
+pinecone==7.3.0
+
+# --- Embeddings & ML ---
+sentence-transformers==5.1.2
+torch==2.9.1
+transformers==4.57.1
+huggingface-hub==0.36.0
+scikit-learn==1.7.2
+
+# --- LLM (optional: Azure OpenAI) ---
+openai==2.8.0
+
+# --- Web search fallback (optional) ---
+tavily-python==0.7.13
+
+# --- TTS audio ---
+soundfile==0.13.1
